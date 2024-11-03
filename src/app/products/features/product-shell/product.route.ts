@@ -6,3 +6,5 @@ export default [
          loadComponent : () => import('../product-list/product-list.component')
         },
 ] as Routes;
+
+
