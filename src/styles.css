@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+ color-scheme: dark light;
+}
+
+body {
+    @apply bg-black;
+     /* 
+    con esto puedo hacer un gradiente de colores para el bg
+    background: horizontal-gradient(135deg, #0d0d16, #191924, #232332, #2d2d42, #0a0a0a); */
+
+}
